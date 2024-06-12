@@ -8,7 +8,7 @@ Step 1: Clone this repo and cd into it
 git clone https://github.com/xanderstevenson/websockets-and-webhooks.git
 cd websockets-and-webhooks
 ```
-
+<br>
 
 Step 2: Activat the Python virtual environment
 
