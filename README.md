@@ -63,6 +63,7 @@ python websocket_client.py
 
 You should see the following output: **Received from server: Echo: Hello, World!**
 <br>
+<br>
 
 **Step 4**: Change the message the client will send
 
