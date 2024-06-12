@@ -1,4 +1,4 @@
-# websockets-and-webhooks
+# Websockets and Webhooks Demo
 
 ## Setup steps
 
