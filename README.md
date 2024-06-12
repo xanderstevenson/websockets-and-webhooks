@@ -2,14 +2,15 @@
 
 ## Setup steps
 
-1 Clone this repo and cd into it
+Step 1: Clone this repo and cd into it
 
 ```bash
 git clone https://github.com/xanderstevenson/websockets-and-webhooks.git
 cd websockets-and-webhooks
 ```
 
-2 Activat the Python virtual environment
+
+Step 2: Activat the Python virtual environment
 
 - Mac/Linux
 ```bash
