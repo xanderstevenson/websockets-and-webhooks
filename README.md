@@ -61,3 +61,21 @@ python websocket_client.py
 
 You should see the following output: **Received from server: Echo: Hello, World!**
 
+
+**Step 4**: Change the message the client will send
+
+- Open [websocket_client.py](https://github.com/xanderstevenson/websockets-and-webhooks/blob/main/websockets/websocket_client.py) and change line 8, inserting your own message. Don't forget to save it!
+  
+```
+await websocket.send("<Insert your message here>")
+```
+
+- Send the new message to the server
+  
+```bash
+python websocket_client.py
+```
+
+Your new message should now be displayed.
+
+
