@@ -41,9 +41,9 @@ pip install -r requirements.txt
 
 Step 2: Observe and run the server
 
-Open [python websocket_server.py](https://github.com/xanderstevenson/websockets-and-webhooks/blob/main/websockets/websocket_server.py) and observe it's contents. 
+- Open [python websocket_server.py](https://github.com/xanderstevenson/websockets-and-webhooks/blob/main/websockets/websocket_server.py) and observe it's contents. 
 
-Run the Server
+- Run the Server
 
 ```bash
 python websocket_server.py
@@ -51,9 +51,9 @@ python websocket_server.py
 
 Step 3: Open a new terminal, observe the client, and run the client
 
-Open [websocket_client.py](https://github.com/xanderstevenson/websockets-and-webhooks/blob/main/websockets/websocket_client.py) and observe it's contents. 
+- Open [websocket_client.py](https://github.com/xanderstevenson/websockets-and-webhooks/blob/main/websockets/websocket_client.py) and observe it's contents. 
 
-Run the Server
+- Run the Server
 
 ```bash
 python websocket_client.py
