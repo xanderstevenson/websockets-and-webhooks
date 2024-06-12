@@ -38,6 +38,7 @@ code .
 cd websockets
 pip install -r requirements.txt
 ```
+<br>
 
 **Step 2**: Observe and run the server
 
@@ -48,6 +49,7 @@ pip install -r requirements.txt
 ```bash
 python websocket_server.py
 ```
+<br>
 
 **Step 3**: Open a new terminal, observe the client, and run the client
 
@@ -60,7 +62,7 @@ python websocket_client.py
 ```
 
 You should see the following output: **Received from server: Echo: Hello, World!**
-
+<br>
 
 **Step 4**: Change the message the client will send
 
