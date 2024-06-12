@@ -6,13 +6,20 @@
 
 ```bash
 git clone https://github.com/xanderstevenson/websockets-and-webhooks.git
+cd websockets-and-webhooks
 ```
 
+2. Activat the Python virtual environment
 
 Mac/Linux
 ```bash
 source venv/bin activate
 ```
+Windows
+```bash
+venv\Scripts\activate
+```
+
 
 ## WebSocket Demo
 
