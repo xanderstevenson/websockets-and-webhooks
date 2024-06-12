@@ -6,13 +6,13 @@
 
 ```bash
 git clone https://github.com/xanderstevenson/websockets-and-webhooks.git
-'''
+```
 
 
 Mac/Linux
 ```bash
 source venv/bin activate
-
+```
 
 ## WebSocket Demo
 
@@ -34,3 +34,4 @@ First, install the required Python dependencies:
 
 ```bash
 pip install -r requirements.txt
+```
