@@ -84,12 +84,19 @@ Your new message should now be displayed.
 
 - Navigate back to the terminal where the websocket server is running and observe a log of all messages sent, e.g.
 
-**Received message: Hello, World!
-Received message: Hello, World!
-Received message: I am good
-Received message: Hello, World!
-Received message: Hello, World!
-Received message: Hello, World!
-Received message: yo!**
+**Received message: Hello, World!**
+<br>
+**Received message: Hello, World!**
+<br>
+**Received message: I am good**
+<br>
+**Received message: Hello, World!**
+<br>
+**Received message: Hello, World!**
+<br>
+**Received message: Hello, World!**
+<br>
+**Received message: yo!**
+<br>
 
 - Close down the websocket server with Ctrl + C or similar command
