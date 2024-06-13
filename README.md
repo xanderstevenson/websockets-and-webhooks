@@ -121,6 +121,8 @@ Your new message should now be displayed.
 python -m http.server
 ```
 
+> **Note:** If prompted, allow incoming network connections
+
 - Navigate in your browser of choice to [http://localhost:8000/websocket_client.html](http://localhost:8000/websocket_client.html), enter a message of your choice and click "Send". The message should be Echoed in the browser.
 
 - Navigate to the terminal where **websocket server** is running and you should see the messages you've sent through the browser, e.g.:
