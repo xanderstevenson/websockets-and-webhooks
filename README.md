@@ -132,4 +132,19 @@ python -m http.server
 **Received message: Adrian is a genius**
 <br>
 **Received message: hahaha**
-  
+
+<br>
+
+**Step 6**: Monitor WebSocket activity using the Admin Panel
+
+With the WebSocket server running in one terminal (python websocket_server.py) and the HTTP server running in the other (python -m http.server), you can now use the Admin Panel to monitor client connections and messages in real-time.
+
+- Prepare the Admin Panel: open the admin_panel.html, js/admin_panel.js, and styles/admin_panel.css files are in the idea.
+
+- Access the Admin Panel: Open your web browser and navigate to [http://localhost:8000/admin_panel.html](http://localhost:8000/admin_panel.html)
+
+- Interact with the Admin Panel: Use the "Show Clients" and "Show Messages" buttons to view the list of connected WebSocket clients and the history of messages exchanged. The Admin Panel will automatically update the statistics as new clients connect and messages are sent via the WebSocket Client at [http://localhost:8000/websocket_client.html](http://localhost:8000/websocket_client.html)
+
+- Observe Server Activity: As you interact with the Admin Panel, observe the terminal where the WebSocket server is running. You should see logs indicating that the server is processing requests from the Admin Panel, such as fetching the list of clients or retrieving message history.
+
+
