@@ -63,7 +63,7 @@ python websocket_server.py
 
 - Open **websocket_client.py** and observe it's contents. 
 
-- Run the Server
+- Run the Client
 
 ```bash
 python websocket_client.py
