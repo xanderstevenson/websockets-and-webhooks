@@ -2,11 +2,11 @@
 
 ## Prerequisites
 
-- Python 3.7 or higher
+- [Python](https://www.python.org/downloads/) 3.7 or higher
 - OS: Mac, Windows, Linux should all be fine
 - Web browser
 - IDE - [Visual Studio Code](https://code.visualstudio.com/Download) recommended
-
+<br>
 
 ## Setup steps
 
@@ -33,7 +33,7 @@ venv\Scripts\activate
 ```bash
 code .
 ```
-
+<br>
 
 ## WebSocket Demo
 
