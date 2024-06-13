@@ -75,7 +75,7 @@ You should see the following output: **Received from server: Echo: Hello, World!
 
 **Step 4**: Change the message the client will send
 
-- Open **websocket_client.py** and change line 8, inserting your own message. Don't forget to save it!
+- Open **websocket_client.py** in your IDE and change line 8, inserting your own message. Don't forget to save it!
   
 ```
 await websocket.send("<Insert your message here>")
