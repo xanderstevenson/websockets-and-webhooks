@@ -107,4 +107,27 @@ Your new message should now be displayed.
 **Received message: yo!**
 <br>
 
-- Close down the websocket server with Ctrl + C or similar command
+- Close down the websocket **client** with Ctrl + C or similar command but **leave the websocket server running**.
+
+  <br>
+
+**Step 5**: Communicate through the websocket via a browser
+
+- Open [websocket_client.py](https://github.com/xanderstevenson/websockets-and-webhooks/blob/main/websockets/websocket_client.html) and observe the HTML with JavaScript code.
+
+- In the terminal where the websocket client was running previously (websocket server should still be running in another terminal window), run the HTTP server:
+
+```bash
+python python -m http.server
+```
+
+- Navigate in your browser of choice to [http://localhost:8000/websocket_client.html](http://localhost:8000/websocket_client.html), enter a message of your choice and click "Send". The message should be Echoed in the browser.
+
+- Navigate to the termiinal where websocket server is running and you should see the messages you've sent through the browser, e.g.:
+
+**Received message: ok** 
+<br>
+**Received message: Adrian is a genius**
+<br>
+**Received message: hahaha**
+  
