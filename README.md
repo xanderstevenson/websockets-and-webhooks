@@ -40,7 +40,7 @@ code .
 
 * To run the server and client, you will need Python 3.7 or higher
 
-**Step 1**: Change directories into websockets and install the dependencies
+**Step 1**: Change directories into the **websockets** directory and install the dependencies
 
 ```bash
 cd websockets
@@ -90,7 +90,7 @@ python websocket_client.py
 Your new message should now be displayed.
 
 
-- Navigate back to the terminal where the websocket server is running and observe a log of all messages sent, e.g.
+- Navigate back to the terminal where the **websocket server** is running and observe a log of all messages sent, e.g.
 
 **Received message: Hello, World!**
 <br>
@@ -107,7 +107,7 @@ Your new message should now be displayed.
 **Received message: yo!**
 <br>
 
-- Close down the websocket **client** with Ctrl + C or similar command but **leave the websocket server running**.
+- Close down the websocket **client** (not the server) with Ctrl + C or similar command but **leave the websocket server running**.
 
   <br>
 
@@ -123,7 +123,7 @@ python python -m http.server
 
 - Navigate in your browser of choice to [http://localhost:8000/websocket_client.html](http://localhost:8000/websocket_client.html), enter a message of your choice and click "Send". The message should be Echoed in the browser.
 
-- Navigate to the termiinal where websocket server is running and you should see the messages you've sent through the browser, e.g.:
+- Navigate to the terminal where **websocket server** is running and you should see the messages you've sent through the browser, e.g.:
 
 **Received message: ok** 
 <br>
