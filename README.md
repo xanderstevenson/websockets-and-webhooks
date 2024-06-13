@@ -18,7 +18,7 @@ cd websockets-and-webhooks
 ```
 <br>
 
-**Step 2**: Activat the Python virtual environment
+### **Step 2**: Activat the Python virtual environment
 
 - Mac/Linux
 ```bash
@@ -40,7 +40,7 @@ code .
 
 * To run the server and client, you will need Python 3.7 or higher
 
-**Step 1**: Change directories into the **websockets** directory and install the dependencies
+### **Step 1**: Change directories into the **websockets** directory and install the dependencies
 
 ```bash
 cd websockets
@@ -48,7 +48,7 @@ pip install -r requirements.txt
 ```
 <br>
 
-**Step 2**: Observe and run the server
+### **Step 2**: Observe and run the server
 
 - Open **python websocket_server.py** and observe it's contents. 
 
@@ -59,7 +59,7 @@ python websocket_server.py
 ```
 <br>
 
-**Step 3**: Open a new terminal, observe the client, and run the client
+### **Step 3**: Open a new terminal, observe the client, and run the client
 
 - Open **websocket_client.py** and observe it's contents. 
 
@@ -73,7 +73,7 @@ You should see the following output: **Received from server: Echo: Hello, World!
 <br>
 <br>
 
-**Step 4**: Change the message the client will send
+### **Step 4**: Change the message the client will send
 
 - Open **websocket_client.py** in your IDE and change line 8, inserting your own message. Don't forget to save it!
   
@@ -111,7 +111,7 @@ Your new message should now be displayed.
 
   <br>
 
-**Step 5**: Communicate through the websocket via a browser
+### **Step 5**: Communicate through the websocket via a browser
 
 - Open websocket_server.**html** and observe the HTML with JavaScript code.
 
@@ -135,7 +135,7 @@ python -m http.server
 
 <br>
 
-**Step 6**: Monitor WebSocket activity using the Admin Panel
+### **Step 6**: Monitor WebSocket activity using the Admin Panel
 
 With the WebSocket server running in one terminal (python websocket_server.py) and the HTTP server running in the other (python -m http.server), you can now use the Admin Panel to monitor client connections and messages in real-time.
 
