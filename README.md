@@ -1,5 +1,13 @@
 # Websockets and Webhooks Demo
 
+## Prerequisites
+
+- Python 3.7 or higher
+- OS: Mac, Windows, Linux should all be fine
+- Web browser
+- IDE - [Visual Studio Code](https://code.visualstudio.com/Download) recommended
+
+
 ## Setup steps
 
 **Step 1**: Clone this repo and cd into it
