@@ -37,9 +37,6 @@ code .
 
 ## WebSocket Demo
 
-
-* To run the server and client, you will need Python 3.7 or higher
-
 ### **Step 1**: Change directories into the **websockets** directory and install the dependencies
 
 ```bash
