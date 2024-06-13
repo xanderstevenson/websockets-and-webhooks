@@ -107,13 +107,13 @@ Your new message should now be displayed.
 **Received message: yo!**
 <br>
 
-- Close down the websocket **client** (not the server) with Ctrl + C or similar command but **leave the websocket server running**.
+- Leave the websocket server running.
 
   <br>
 
 **Step 5**: Communicate through the websocket via a browser
 
-- Open **websocket_client.py** and observe the HTML with JavaScript code.
+- Open websocket_server.**html** and observe the HTML with JavaScript code.
 
 - In the terminal where the websocket client was running previously (websocket server should still be running in another terminal window), run the HTTP server:
 
