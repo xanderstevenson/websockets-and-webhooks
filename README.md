@@ -50,7 +50,7 @@ pip install -r requirements.txt
 
 **Step 2**: Observe and run the server
 
-- Open [python websocket_server.py](https://github.com/xanderstevenson/websockets-and-webhooks/blob/main/websockets/websocket_server.py) and observe it's contents. 
+- Open **python websocket_server.py** and observe it's contents. 
 
 - Run the Server
 
@@ -61,7 +61,7 @@ python websocket_server.py
 
 **Step 3**: Open a new terminal, observe the client, and run the client
 
-- Open [websocket_client.py](https://github.com/xanderstevenson/websockets-and-webhooks/blob/main/websockets/websocket_client.py) and observe it's contents. 
+- Open **websocket_client.py** and observe it's contents. 
 
 - Run the Server
 
@@ -75,7 +75,7 @@ You should see the following output: **Received from server: Echo: Hello, World!
 
 **Step 4**: Change the message the client will send
 
-- Open [websocket_client.py](https://github.com/xanderstevenson/websockets-and-webhooks/blob/main/websockets/websocket_client.py) and change line 8, inserting your own message. Don't forget to save it!
+- Open **websocket_client.py** and change line 8, inserting your own message. Don't forget to save it!
   
 ```
 await websocket.send("<Insert your message here>")
@@ -113,7 +113,7 @@ Your new message should now be displayed.
 
 **Step 5**: Communicate through the websocket via a browser
 
-- Open [websocket_client.py](https://github.com/xanderstevenson/websockets-and-webhooks/blob/main/websockets/websocket_client.html) and observe the HTML with JavaScript code.
+- Open **websocket_client.py** and observe the HTML with JavaScript code.
 
 - In the terminal where the websocket client was running previously (websocket server should still be running in another terminal window), run the HTTP server:
 
