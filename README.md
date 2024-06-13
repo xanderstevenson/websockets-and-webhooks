@@ -10,7 +10,7 @@
 
 ## Setup steps
 
-**Step 1**: Clone this repo and cd into it
+### **Step 1**: Clone this repo and cd into it
 
 ```bash
 git clone https://github.com/xanderstevenson/websockets-and-webhooks.git
