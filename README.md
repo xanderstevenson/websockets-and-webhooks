@@ -74,6 +74,9 @@ python3 websocket_server.py
 
 ### **Step 3**: Open a new terminal, observe the client, and run the client
 
+> **Note:** Every time you open a new Terminal in these labs, ensure you are in the correct directory (in this case **websockets-and-webhooks/websockets**).
+<br>
+
 - Open **websocket_client.py** and observe it's contents. 
 
 - Run the Client
