@@ -267,10 +267,18 @@ cd ../webhooks
 python3 app.py
 ```
 <br>
-    
-### **Step 3**: Simulate a webhook event
 
-Use an HTTP client (like Postman) to send a POST request to `http://127.0.0.1:5000/webhook` with a JSON payload. Example:
+    
+### **Step 3**: Simulate webhook events with cURL and Postman
+
+- Send a test webhook event with cURL:
+
+```bash
+curl -X POST http://127.0.0.1:5000/webhook -H "Content-Type: application/json" -d '{"event": "new_data", "data": {"id": 123, "message": "This is a webhook event"}}'
+```
+
+
+- Use an HTTP client (like Postman) to send a POST request to `http://127.0.0.1:5000/webhook` with a JSON payload:
 
 ```json
 {
