@@ -171,9 +171,8 @@ With the WebSocket server running in one terminal (python3 websocket_server.py) 
 
 ### **Cleanup**
 
-Terminate the Websocker Server and HTTP Server in theor respective Terminals with Ctrl+C or similar command
+Terminate the Websocker Server and HTTP Server in their respective Terminals with Ctrl+C or similar command
 
-<br>
 
 ### **Conclusion**
 
