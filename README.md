@@ -86,6 +86,8 @@ In this guided tutorial, we will explore the fundamentals of WebSocket communica
 **Diagram 1 (above): Interaction Between Files**
 In this diagram, we'll illustrate how the various files interact with each other and with the servers.
 
+Files:
+
 - **websocket_server.py**: This Python script serves as the WebSocket server, handling incoming WebSocket connections and messages.
 - **websocket_client.py**: The WebSocket client script interacts with the server to send and receive messages.
 - **websocket_server.html**: This HTML file can be used to visualize WebSocket server activity or interact with the server through a browser interface.
@@ -93,6 +95,7 @@ In this diagram, we'll illustrate how the various files interact with each other
 - **admin_panel.html, admin_panel.js, admin_panel.css**: These files together form an admin panel that monitors WebSocket activity, displaying connected clients and message history.
 - **HTTP Server (http.server)**: Serves static files such as HTML, CSS, and JavaScript files to the browser.
 
+Modules:
 
 - **WebSocket Server**: The server listens for incoming WebSocket connections, receives and sends messages, and logs activity.
 - **WebSocket Client**: Connects to the server, sends and receives messages based on user interaction or scripts.
