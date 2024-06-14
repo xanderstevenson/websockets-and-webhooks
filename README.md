@@ -10,7 +10,7 @@
 
 ## Setup steps
 
-> **Note:** Throughout this lab, we'll be using commands beginning with **python**, although your system may require those commands to begin with **python3**
+> **Note:** Throughout this lab, we'll be using commands beginning with **python3**, although your system may require those commands to begin with **python**
 
 ### **Step 1**: Clone this repo and cd into it
 
@@ -24,12 +24,12 @@ cd websockets-and-webhooks
 
 - Mac/Linux
 ```bash
-python -m venv venv
+python3 -m venv venv
 source venv/bin activate
 ```
 - Windows
 ```bash
-python -m venv venv
+python3 -m venv venv
 venv\Scripts\activate
 ```
 
@@ -56,7 +56,7 @@ pip install -r requirements.txt
 - Run the Server
 
 ```bash
-python websocket_server.py
+python3 websocket_server.py
 ```
 <br>
 
@@ -67,7 +67,7 @@ python websocket_server.py
 - Run the Client
 
 ```bash
-python websocket_client.py
+python3 websocket_client.py
 ```
 
 You should see the following output: **Received from server: Echo: Hello, World!**
@@ -85,7 +85,7 @@ await websocket.send("<Insert your message here>")
 - Send the new message to the server
   
 ```bash
-python websocket_client.py
+python3 websocket_client.py
 ```
 
 Your new message should now be displayed.
@@ -119,7 +119,7 @@ Your new message should now be displayed.
 - In the terminal where the websocket client was running previously (websocket server should still be running in another terminal window), run the HTTP server:
 
 ```bash
-python -m http.server
+python3 -m http.server
 ```
 
 > **Note:** If prompted, allow incoming network connections
@@ -138,7 +138,7 @@ python -m http.server
 
 ### **Step 6**: Monitor WebSocket activity using the Admin Panel
 
-With the WebSocket server running in one terminal (python websocket_server.py) and the HTTP server running in the other (python -m http.server), you can now use the Admin Panel to monitor client connections and messages in real-time.
+With the WebSocket server running in one terminal (python3 websocket_server.py) and the HTTP server running in the other (python3 -m http.server), you can now use the Admin Panel to monitor client connections and messages in real-time.
 
 - Prepare the Admin Panel: open the *admin_panel.html**, **js/admin_panel.js**, and **styles/admin_panel.css** files are in the IDE.
 
