@@ -69,18 +69,18 @@ In this guided tutorial, we will explore the fundamentals of WebSocket communica
                WebSocket Server                WebSocket Client                WebSocket Server
                     |                                |                                |
                     +--------+-----------------------+----------------+---------------+
-                             |                                       |
-                             |                                       |
-                             v                                       v
-                        WebSocket                               HTTP Server
-                      (websocket.py)                           (http.server)
-                             |                                       |
-                             |                                       |
-             +-----------+--------+-----------+            +--------------+-----------+
-             |     websocket_client.html      |            |      admin_panel.html    |
-             +--------------------------------+            +--------------------------+
+                             |                                        |
+                             |                                        |
+                             v                                        v
+                        WebSocket                                HTTP Server
+                      (websocket.py)                            (http.server)
+                             |                                        |
+                             |                                        |
+             +-----------+--------+-----------+           +--------------+-----------+
+             |     websocket_client.html      |           |      admin_panel.html    |
+             +--------------------------------+           +--------------------------+
 
-
+<br>
 
 
 ### **Step 1**: Change directories into the **websockets** directory
