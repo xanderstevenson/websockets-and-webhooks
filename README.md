@@ -274,18 +274,19 @@ python3 app.py
 - Send a test webhook event with cURL:
 
 ```bash
-curl -X POST http://127.0.0.1:5000/webhook -H "Content-Type: application/json" -d '{"event": "new_data", "data": {"id": 123, "message": "This is a webhook event"}}'
+curl -X POST http://127.0.0.1:5000/webhook -H "Content-Type: application/json" -d '{"event": "new_data", "data": {"id": 123, "message": "This is a webhook event sent via cURL"}}'
 ```
 
+<br>
 
-- Use an HTTP client (like Postman) to send a POST request to `http://127.0.0.1:5000/webhook` with a JSON payload:
+- Use an HTTP client (like Postman) to send a second POST request to `http://127.0.0.1:5000/webhook` with a different JSON payload:
 
 ```json
 {
    "event": "new_data",
    "data": {
        "id": 123,
-       "message": "This is a webhook event"
+       "message": "This is a webhook event sent via Postman"
    }
 }
 ```
