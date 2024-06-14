@@ -155,7 +155,7 @@ python3 -m http.server
 
 With the WebSocket server running in one terminal (python3 websocket_server.py) and the HTTP server running in the other (python3 -m http.server), you can now use the Admin Panel to monitor client connections and messages in real-time.
 
-- Prepare the Admin Panel: open the *admin_panel.html**, **js/admin_panel.js**, and **styles/admin_panel.css** files are in the IDE.
+- Prepare the Admin Panel: open the **admin_panel.html**, **js/admin_panel.js**, and **styles/admin_panel.css** files are in the IDE.
 
 - Access the Admin Panel: Open your web browser and navigate to [http://localhost:8000/admin_panel.html](http://localhost:8000/admin_panel.html)
 
