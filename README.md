@@ -235,6 +235,62 @@ In conclusion, this tutorial has guided you through setting up and interacting w
 
 sjsjsjsjsokmemds
 
++---------------------+                +-----------------------+
+|    Event Source     |                |   Webhooks Receiver   |
+|    (Event Server)   |                |                       |
++---------------------+                +-----------------------+
+         |                                     |
+         |  Event Occurs                        |
+         |  (e.g., New data, Status change)    |
+         v                                     |
++---------------------+                +-----------------------+
+|   Event Triggered   |   HTTP POST    |                       |
+|   (Event Payload)   | -------------> |   Webhooks Endpoint   |
+|                     |                |                       |
++---------------------+                +-----------------------+
+         |                                     |
+         |  HTTP POST Request                  |
+         |                                     |
+         v                                     |
++---------------------+                +-----------------------+
+|                     |                |    Webhooks Handler   |
+|     Webhooks        |                |                       |
+|   Consumer Action   |                |   Process Webhook     |
+|                     |                |   Payload             |
++---------------------+                +-----------------------+
+         |                                     |
+         |  Process Event                      |
+         |                                     |
+         v                                     |
++---------------------+                +-----------------------+
+|                     |                |    Application or     |
+|   Application or    |                |    Service Logic      |
+|   Service Logic     |                |   (e.g., Update DB,   |
+|   (e.g., Update DB, |                |   Trigger Actions)    |
+|   Trigger Actions)  |                |                       |
+|                     |                |                       |
++---------------------+                +-----------------------+
+
+
+**Explanation of the Webhooks Demo Diagram**:
+
+**Event Source (Event Server)**: This is where the event originates. It could be an application, a service, or any system that generates events (e.g., a new data entry, status change).
+**Event Triggered (Event Payload)**: When an event occurs, the server prepares an event payload containing relevant data.
+**Webhooks Receiver**: This is where the Webhooks endpoint is hosted. It listens for incoming HTTP POST requests from the Event Source.
+**Webhooks Endpoint**: The URL where the Webhooks Receiver expects to receive HTTP POST requests. It handles the incoming payloads.
+**Webhooks Handler**: Processes the received webhook payload. This could involve authentication, validation, and then forwarding the payload to the appropriate application or service logic.
+**Application or Service Logic**: This component processes the webhook payload. It might update databases, trigger actions, or perform other operations based on the received data.
+
+**Workflow of the Webhooks Demo**:
+
+**Event Occurs**: An event, such as new data being added or a status change, occurs on the Event Source (Event Server).
+**Event Triggered**: The Event Server prepares an event payload containing relevant information.
+**HTTP POST Request**: The Event Server sends an HTTP POST request to the Webhooks Endpoint (Webhooks Receiver).
+**Webhooks Handler**: The Webhooks Receiver receives the POST request, validates and processes the payload, and then passes it to the Webhooks Handler.
+**Process Event**: The Webhooks Handler processes the webhook payload, potentially performing authentication or validation before further processing.
+**Application or Service Logic**: Finally, the processed data is used by the Application or Service Logic to perform actions based on the event.
+
+
 <br>
 
 ### **Step 1**: Change directories into the **webhooks** directory
