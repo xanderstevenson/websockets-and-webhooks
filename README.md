@@ -41,7 +41,7 @@ code .
 > **Note:** You'll then see the file manager on the left-hand side. After this, simply choose **Terminal > New Terminal** from the VS Code menu to open a new Terminal.
 <br>
 
-## **Step 3**: Install Dependencies
+### **Step 3**: Install Dependencies
 
 ```bash
 pip3 install -r requirements.txt
@@ -51,7 +51,7 @@ pip3 install -r requirements.txt
 
 ## WebSocket Demo
 
-### **Step 1**: Change directories into the **websockets** directory and install the dependencies
+### **Step 1**: Change directories into the **websockets** directory
 
 ```bash
 cd websockets
