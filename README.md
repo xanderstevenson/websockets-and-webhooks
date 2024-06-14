@@ -248,26 +248,26 @@ sjsjsjsjsokmemds
 
 <br>
 
-### **Step 1**: Change directories into the **webhooks** directory
+### **Step 1**: Change directories into the **webhooks** directory, observe the file structure, and examine the files
 
 ```bash
 cd ../webhooks
 ```
+
+- In your IDE, take a look at the files in the **webhooks** directory. In VS Code, the files are in the left panel.
+
+![image](https://github.com/xanderstevenson/websockets-and-webhooks/assets/27918923/11e30d3f-338a-40d7-b25e-8cf77468fd08)
+
 <br>
 
-### **Step 2**: Observe the file structure and examine the files
 
-In your IDE, take a look at the files in the **webhooks** directory
-
-<br>
-
-### **Step 3**: Run the Flask application:
+### **Step 2**: Run the Flask application:
     ```bash
-    python app.py
+    python3 app.py
     ```
 <br>
     
-### **Step 4**: Simulate a webhook event:
+### **Step 3**: Simulate a webhook event:
     Use an HTTP client (like Postman) to send a POST request to `http://127.0.0.1:5000/webhook` with a JSON payload. Example:
     ```json
     {
@@ -281,5 +281,5 @@ In your IDE, take a look at the files in the **webhooks** directory
 
 <br>
 
-### **Step 5**: View the event data:
+### **Step 4**: View the event data:
     Open your web browser and navigate to [http://127.0.0.1:5000](http://127.0.0.1:5000). You should see the event data displayed on the page.
