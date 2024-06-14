@@ -25,7 +25,7 @@ cd websockets-and-webhooks
 - Mac/Linux
 ```bash
 python3 -m venv venv
-source venv/bin activate
+source venv/bin/activate
 ```
 - Windows
 ```bash
