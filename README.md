@@ -245,21 +245,20 @@ sjsjsjsjsokmemds
 - **Process Event**: The Webhooks Handler processes the webhook payload, potentially performing authentication or validation before further processing.
 - **Application or Service Logic**: Finally, the processed data is used by the Application or Service Logic to perform actions based on the event.
 
-webhooks_demo/
-├── app.py
-├── config.py
-├── webhook_processor.py
-├── webhook_receiver.py
-├── templates/
-│   └── index.html
-├── static/
+webhooks/<br>
+├── app.py<br>
+├── config.py<br>
+├── webhook_processor.py<br>
+├── webhook_receiver.py<br>
+├── templates/<br>
+│   └── index.html<br>
+├── static/<br>
 │   ├── css/
 │   │   └── style.css
 │   └── js/
 │       └── script.js
 └── README.md
 
-![image](https://github.com/xanderstevenson/websockets-and-webhooks/assets/27918923/904713b7-6981-4e35-8063-a58cfb5ba5a2)
 
 
 <br>
