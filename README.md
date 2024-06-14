@@ -38,6 +38,14 @@ venv\Scripts\activate
 code .
 ```
 > **Note:** You'll then see the file manager on the left-hand side. After this, simply choose **Terminal > New Terminal** from the VS Code menu to open a new Terminal.
+
+
+## **Step 3**: Install Dependencies
+
+```bash
+pip3 install -r requirements.txt
+```
+
 <br>
 
 ## WebSocket Demo
@@ -46,7 +54,6 @@ code .
 
 ```bash
 cd websockets
-pip3 install -r requirements.txt
 ```
 <br>
 
