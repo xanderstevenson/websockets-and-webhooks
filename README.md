@@ -54,7 +54,7 @@ pip3 install -r requirements.txt
 
 ## WebSocket Demo
 
-## **Introduction**: 
+### **Introduction**: 
 
 In this guided tutorial, we will explore the fundamentals of WebSocket communication using Python. We'll walk through several steps to set up and interact with WebSocket servers and clients, leveraging basic scripts and an admin panel for monitoring activity.
 
@@ -169,7 +169,13 @@ With the WebSocket server running in one terminal (python3 websocket_server.py) 
 
 - Observe Server Activity: As you interact with the Admin Panel, observe the terminal where the WebSocket server is running. You should see logs indicating that the server is processing requests from the Admin Panel, such as fetching the list of clients or retrieving message history.
 
-## **Conclusion**
+### **Cleanup**
+
+Terminate the Websocker Server and HTTP Server in theor respective Terminals with Ctrl+C or similar command
+
+<br>
+
+### **Conclusion**
 
 In conclusion, this tutorial has guided you through setting up and interacting with WebSocket servers and clients using Python. You've learned to modify client messages, communicate via WebSocket in a browser, and monitor activity using an admin panel. These skills are foundational for developing real-time web applications that require efficient bi-directional communication.
 
