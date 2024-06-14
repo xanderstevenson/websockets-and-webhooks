@@ -1,7 +1,10 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    padding: 20px;
+}
+
+#webhook-data {
+    margin-top: 20px;
+    white-space: pre-wrap;
 }
 
 h1 {
