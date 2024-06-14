@@ -10,6 +10,8 @@
 
 ## Setup steps
 
+> **Note:** Throughout this lab, we'll be using commands beginning with **python**, although your system may require those commands to begin with **python3**
+
 ### **Step 1**: Clone this repo and cd into it
 
 ```bash
@@ -18,14 +20,16 @@ cd websockets-and-webhooks
 ```
 <br>
 
-### **Step 2**: Activat the Python virtual environment
+### **Step 2**: Create and activate a Python virtual environment
 
 - Mac/Linux
 ```bash
+python -m venv venv
 source venv/bin activate
 ```
 - Windows
 ```bash
+python -m venv venv
 venv\Scripts\activate
 ```
 
