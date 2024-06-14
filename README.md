@@ -261,25 +261,26 @@ cd ../webhooks
 <br>
 
 
-### **Step 2**: Run the Flask application:
-    ```bash
-    python3 app.py
-    ```
+### **Step 2**: Run the Flask application
+```bash
+python3 app.py
+```
 <br>
     
-### **Step 3**: Simulate a webhook event:
+### **Step 3**: Simulate a webhook event
     Use an HTTP client (like Postman) to send a POST request to `http://127.0.0.1:5000/webhook` with a JSON payload. Example:
-    ```json
-    {
-        "event": "new_data",
-        "data": {
-            "id": 123,
-            "message": "This is a webhook event"
-        }
-    }
-    ```
+
+```json
+{
+   "event": "new_data",
+   "data": {
+       "id": 123,
+       "message": "This is a webhook event"
+   }
+}
+```
 
 <br>
 
-### **Step 4**: View the event data:
+### **Step 4**: View the event data
     Open your web browser and navigate to [http://127.0.0.1:5000](http://127.0.0.1:5000). You should see the event data displayed on the page.
