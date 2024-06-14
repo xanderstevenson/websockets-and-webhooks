@@ -271,11 +271,17 @@ python3 app.py
     
 ### **Step 3**: Simulate webhook events with cURL and Postman
 
-- Send a test webhook event with cURL:
+- In a new Terminal, send a test webhook event with cURL:
 
 ```bash
 curl -X POST http://127.0.0.1:5000/webhook -H "Content-Type: application/json" -d '{"event": "new_data", "data": {"id": 123, "message": "This is a webhook event sent via cURL"}}'
 ```
+
+- Navigate to [http://127.0.0.1:5000](http://127.0.0.1:5000) and observe the payload sent via cURL
+
+![image](https://github.com/xanderstevenson/websockets-and-webhooks/assets/27918923/1d1d8fda-4e2e-4704-b00d-6b276bf05774)
+
+
 
 <br>
 
