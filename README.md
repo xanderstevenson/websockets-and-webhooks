@@ -86,18 +86,18 @@ In this guided tutorial, we will explore the fundamentals of WebSocket communica
 **Diagram 1 (above): Interaction Between Files**
 In this diagram, we'll illustrate how the various files interact with each other and with the servers.
 
-**websocket_server.py**: This Python script serves as the WebSocket server, handling incoming WebSocket connections and messages.
-**websocket_client.py**: The WebSocket client script interacts with the server to send and receive messages.
-**websocket_server.html**: This HTML file can be used to visualize WebSocket server activity or interact with the server through a browser interface.
-**websocket_client.html**: Represents a client-side HTML page that interacts with the WebSocket server.
-**admin_panel.html, admin_panel.js, admin_panel.css**: These files together form an admin panel that monitors WebSocket activity, displaying connected clients and message history.
-**HTTP Server (http.server)**: Serves static files such as HTML, CSS, and JavaScript files to the browser.
+- **websocket_server.py**: This Python script serves as the WebSocket server, handling incoming WebSocket connections and messages.
+- **websocket_client.py**: The WebSocket client script interacts with the server to send and receive messages.
+- **websocket_server.html**: This HTML file can be used to visualize WebSocket server activity or interact with the server through a browser interface.
+- **websocket_client.html**: Represents a client-side HTML page that interacts with the WebSocket server.
+- **admin_panel.html, admin_panel.js, admin_panel.css**: These files together form an admin panel that monitors WebSocket activity, displaying connected clients and message history.
+- **HTTP Server (http.server)**: Serves static files such as HTML, CSS, and JavaScript files to the browser.
 
 
-**WebSocket Server**: The server listens for incoming WebSocket connections, receives and sends messages, and logs activity.
-**WebSocket Client**: Connects to the server, sends and receives messages based on user interaction or scripts.
-**Admin Panel**: Displays client connections and message history, interacts with the WebSocket server to fetch data.
-**WebSocket Protocol**: Implements the WebSocket protocol for both server-side and client-side communication
+- **WebSocket Server**: The server listens for incoming WebSocket connections, receives and sends messages, and logs activity.
+- **WebSocket Client**: Connects to the server, sends and receives messages based on user interaction or scripts.
+- **Admin Panel**: Displays client connections and message history, interacts with the WebSocket server to fetch data.
+- **WebSocket Protocol**: Implements the WebSocket protocol for both server-side and client-side communication
 
 <br>
 
