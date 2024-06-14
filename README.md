@@ -46,7 +46,7 @@ code .
 
 ```bash
 cd websockets
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 <br>
 
