@@ -54,7 +54,9 @@ pip3 install -r requirements.txt
 
 ## WebSocket Demo
 
-## **Introduction**: In this guided tutorial, we will explore the fundamentals of WebSocket communication using Python. We'll walk through several steps to set up and interact with WebSocket servers and clients, leveraging basic scripts and an admin panel for monitoring activity.
+## **Introduction**: 
+
+In this guided tutorial, we will explore the fundamentals of WebSocket communication using Python. We'll walk through several steps to set up and interact with WebSocket servers and clients, leveraging basic scripts and an admin panel for monitoring activity.
 
 ### **Step 1**: Change directories into the **websockets** directory
 
