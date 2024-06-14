@@ -238,16 +238,13 @@ sjsjsjsjsokmemds
 
 **Workflow of the Webhooks Demo**:
 
-- **Event Occurs**: An event, such as new data being added or a status change, occurs on the Event Source (Event Server).
+- **Event Occurs**: An event, such as new data being added or a status change, occurs on the Event Source.
 - **Event Triggered**: The Event Server prepares an event payload containing relevant information.
-- **HTTP POST Request**: The Event Server sends an HTTP POST request to the Webhooks Endpoint (Webhooks Receiver).
+- **HTTP POST Request**: The Event Server sends an HTTP POST request to the Webhooks Endpoint of /webhook (Webhooks Receiver).
+- **Webhooks Receiver**: Handle the incoming request in app.py
 - **Webhooks Handler**: The Webhooks Receiver receives the POST request, validates and processes the payload, and then passes it to the Webhooks Handler.
 - **Process Event**: The Webhooks Handler processes the webhook payload, potentially performing authentication or validation before further processing.
 - **Application or Service Logic**: Finally, the processed data is used by the Application or Service Logic to perform actions based on the event.
-
-![image](https://github.com/xanderstevenson/websockets-and-webhooks/assets/27918923/1b237e56-225c-412e-8f84-f3b031b2d118)
-
-
 
 <br>
 
@@ -258,4 +255,31 @@ cd ../webhooks
 ```
 <br>
 
-### **Step 2**: Blah blah
+### **Step 2**: Observe the file structure and examine the files
+
+In your IDE, take a look at the files in the **webhooks** directory
+
+<br>
+
+### **Step 3**: Run the Flask application:
+    ```bash
+    python app.py
+    ```
+<br>
+    
+### **Step 4**: Simulate a webhook event:
+    Use an HTTP client (like Postman) to send a POST request to `http://127.0.0.1:5000/webhook` with a JSON payload. Example:
+    ```json
+    {
+        "event": "new_data",
+        "data": {
+            "id": 123,
+            "message": "This is a webhook event"
+        }
+    }
+    ```
+
+<br>
+
+### **Step 5**: View the event data:
+    Open your web browser and navigate to [http://127.0.0.1:5000](http://127.0.0.1:5000). You should see the event data displayed on the page.
