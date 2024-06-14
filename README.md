@@ -32,20 +32,21 @@ source venv/bin/activate
 python3 -m venv venv
 venv\Scripts\activate
 ```
+<br>
 
 > **Note:** Optional: In VS Code you can open all files in this repo with this command
 ```bash
 code .
 ```
 > **Note:** You'll then see the file manager on the left-hand side. After this, simply choose **Terminal > New Terminal** from the VS Code menu to open a new Terminal.
-
+<br>
 
 ## **Step 3**: Install Dependencies
 
 ```bash
 pip3 install -r requirements.txt
 ```
-
+<br>
 <br>
 
 ## WebSocket Demo
