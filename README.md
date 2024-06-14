@@ -83,8 +83,8 @@ In this guided tutorial, we will explore the fundamentals of WebSocket communica
 <br>
 
 
-**Diagram 1 (above): Interaction Between Files**
-In this diagram, we'll illustrate how the various files interact with each other and with the servers.
+**Interaction Between Files**
+In this diagram (above), we'll illustrate how the various files interact with each other and with the servers.
 
 Files:
 
