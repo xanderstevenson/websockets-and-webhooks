@@ -37,6 +37,7 @@ venv\Scripts\activate
 ```bash
 code .
 ```
+> **Note:** You'll then see the file manager on the left-hand side. Simply choose **Terminal > New Terminal** from the VS Code menu to pen a new Terminal.
 <br>
 
 ## WebSocket Demo
