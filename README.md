@@ -233,7 +233,9 @@ In conclusion, this tutorial has guided you through setting up and interacting w
 
 ### **Introduction**: 
 
-sjsjsjsjsokmemds
+Welcome to the Webhooks Demo! In today's interconnected digital world, webhooks play a crucial role in enabling real-time communication between applications. Unlike traditional APIs, which require continuous polling to receive updates, webhooks allow servers to push information to clients as soon as events occur. This makes webhooks an efficient and scalable solution for modern web applications, ensuring timely data exchange and seamless integration across various services.
+
+In this demo, we'll explore how to set up and use webhooks in a Python environment. We'll walk through the entire process, from triggering events and sending HTTP POST requests to processing these events and displaying the received data. By the end of this demo, you will have a clear understanding of how webhooks work and how you can leverage them to enhance the interactivity and responsiveness of your applications.
 
 
 **Workflow of the Webhooks Demo**:
@@ -312,7 +314,13 @@ Don't forget to choose **POST** and click **Send**.
 <br>
 
 
+### **Cleanup**
 
-### **Step 4**: Hmmm
+Terminate the Flask Websocket app.py with Ctrl+C or similar command.
 
-Jsjjdj
+
+### **Conclusion**
+
+Congratulations on completing the Webhooks Demo! Throughout this exercise, we've delved into the fundamental concepts of webhooks and their practical implementation using Python and Flask. We started by setting up a simple webhook receiver and handler, allowing us to capture and process incoming webhook events. By simulating events and observing how data flows through our system, we demonstrated the efficiency and effectiveness of webhooks in real-time communication.
+
+This demo not only highlights the technical aspects of webhooks but also emphasizes their significance in building modern, responsive applications. By leveraging webhooks, you can ensure that your application remains up-to-date with the latest events, providing a better user experience and reducing unnecessary server load. As you move forward, consider integrating webhooks into your own projects to facilitate seamless data exchange and enhance your application's interactivity. Thank you for participating, and happy coding!
