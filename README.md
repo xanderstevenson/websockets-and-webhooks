@@ -311,13 +311,12 @@ Don't forget to choose **POST** and click **Send**.
 ![image](https://github.com/xanderstevenson/websockets-and-webhooks/assets/27918923/f9144dd6-5f8c-4dea-a0e1-5da2f79c895b)
 
 
-<br>
-
 
 ### **Cleanup**
 
 Terminate the Flask Websocket app.py with Ctrl+C or similar command.
 
+<br>
 
 ### **Conclusion**
 
