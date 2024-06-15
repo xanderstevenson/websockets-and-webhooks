@@ -6,6 +6,7 @@
 - OS: Mac, Windows, Linux should all be fine
 - Web browser
 - IDE - [Visual Studio Code](https://code.visualstudio.com/Download) recommended
+- [Postman](https://www.postman.com/), either in the browser or desktop app
 <br>
 
 ## Setup steps
