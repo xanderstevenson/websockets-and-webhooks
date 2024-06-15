@@ -299,7 +299,6 @@ curl -X POST http://127.0.0.1:5000/webhook -H "Content-Type: application/json" -
 ```
 Don't forget to choose **POST** and click **Send**.
 
-<br>
 
 ![image](https://github.com/xanderstevenson/websockets-and-webhooks/assets/27918923/bbf5a2c2-4e36-4f24-8fb8-8f7dfa59fa3b)
 
@@ -307,7 +306,12 @@ Don't forget to choose **POST** and click **Send**.
 
 - Navigate to [http://127.0.0.1:5000](http://127.0.0.1:5000) and observe the second payload sent via Postman
 
+![image](https://github.com/xanderstevenson/websockets-and-webhooks/assets/27918923/f9144dd6-5f8c-4dea-a0e1-5da2f79c895b)
+
+
 <br>
+
+
 
 ### **Step 4**: View the event data
 
