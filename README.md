@@ -316,7 +316,6 @@ Don't forget to choose **POST** and click **Send**.
 
 Terminate the Flask Websocket app.py with Ctrl+C or similar command.
 
-<br>
 
 ### **Conclusion**
 
