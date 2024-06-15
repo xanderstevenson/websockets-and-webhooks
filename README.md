@@ -285,17 +285,27 @@ curl -X POST http://127.0.0.1:5000/webhook -H "Content-Type: application/json" -
 
 <br>
 
-- Use an HTTP client (like Postman) to send a second POST request to `http://127.0.0.1:5000/webhook` with a different JSON payload:
+- Use Postman to send a second **POST** request to `http://127.0.0.1:5000/webhook` with a different JSON payload, raw, in the body. 
+
 
 ```json
 {
    "event": "new_data",
    "data": {
-       "id": 123,
+       "id": 456,
        "message": "This is a webhook event sent via Postman"
    }
 }
 ```
+Don't forget to choose **POST** and click **Send**.
+
+<br>
+
+![image](https://github.com/xanderstevenson/websockets-and-webhooks/assets/27918923/bbf5a2c2-4e36-4f24-8fb8-8f7dfa59fa3b)
+
+<br>
+
+- Navigate to [http://127.0.0.1:5000](http://127.0.0.1:5000) and observe the second payload sent via Postman
 
 <br>
 
