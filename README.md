@@ -313,6 +313,6 @@ Don't forget to choose **POST** and click **Send**.
 
 
 
-### **Step 4**: View the event data
+### **Step 4**: Hmmm
 
-Open your web browser and navigate to [http://127.0.0.1:5000](http://127.0.0.1:5000). You should see the event data displayed on the page.
+Jsjjdj
