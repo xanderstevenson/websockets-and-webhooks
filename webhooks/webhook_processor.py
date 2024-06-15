@@ -1,8 +1,14 @@
 # webhook_processor.py
 
+processed_data = []
+
 
 def process_webhook(data):
     # Validate and process webhook payload
-    # Example: Log the event and return a response
     print(f"Received webhook payload: {data}")
-    return {"message": "Webhook processed successfully"}
+    processed_data.append(data)
+    return {"message": "Webhook processed successfully", "data": data}
+
+
+def get_processed_data():
+    return processed_data
