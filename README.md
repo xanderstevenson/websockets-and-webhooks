@@ -19,7 +19,7 @@ Prerequisites for this demo include Python 3.7 or higher, an operating system th
 
 By the end of this demo, you will have a clear understanding of how Websockets and Webhooks work, their differences, and how to implement them in your own projects. Let's get started by setting up our environment and exploring the interactive world of real-time web communication!
 
-
+<br>
 
 ## Prerequisites
 
